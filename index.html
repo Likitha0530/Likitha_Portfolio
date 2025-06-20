@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Css/Style.css" />
+    <link rel="stylesheet" href="Css/media.css" />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Boxicons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- <div class="cursor"></div> -->
+    <!--header design-->
+
+    <header class="header">
+      <a href="#" class="Logo">Chal<span>La</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Challa Likitha</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I'm a highly motivated UI/UX design graduate with a keen eye for
+          detail, ready to leverage design skills to enhance user experiences
+          across digital platforms.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="./Assets/Media/Images/Likitha cv.pdf" download="" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="Assets/Media/Images/Profile.jpg" alt="ChalLa Image" />
+      </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Assets/Media/Images/profile2.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          <span class="span"
+            >I'm Challa Likitha, a visual UX/UI Designer and Web Developer</span
+          >
+          I am a Frontend Developer with a passion for creating dynamic and
+          responsive web applications. I have a strong foundation in HTML, CSS,
+          and JavaScript, and I am proficient in modern frameworks like React.
+          My goal is to build user-friendly interfaces that provide an
+          exceptional user experience. I am always eager to learn new
+          technologies and improve my skills. I thrive in collaborative
+          environments and enjoy working with cross-functional teams to bring
+          innovative ideas to life.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Web Design</h3>
+          <p>
+            Tailored to your brand’s identity, we craft unique layouts that reflect your business goals and vision.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Whether it's a simple informational site or a complex web application, we build custom solutions using modern technologies that align with your needs.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-bulb"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            We focus on delivering a seamless user experience with intuitive navigation, clean layouts, and fast load times.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <!-- <div class="services-box">
+          <i class="bx bxs-bulb"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            We focus on delivering a seamless user experience with intuitive navigation, clean layouts, and fast load times.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div> -->
+      
+    </section>
+
+    <!--portfolio section-->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+
+
+      <nav class="portfolio-nav">
+  <ul class="portfolio-list">
+    <li class="active" data-filter="all"><a href="#">All</a></li>
+    <li data-filter="html/css"><a href="#">HTML/CSS</a></li>
+    <!-- <li data-filter="css"><a href="#">CSS</a></li> -->
+    <li data-filter="javascript"><a href="#">JavaScript</a></li>
+    <li data-filter="sass"><a href="#">SASS</a></li>
+     <li data-filter="reactjs"><a href="#">ReactJs</a></li>
+    <li data-filter="figma"><a href="#">Figma</a></li>
+  </ul>
+</nav>
+
+      
+
+      <!-- <div class="portfolio-container">
+        <div class="portfolio-box" id="css">
+          <img src="Assets/Media/Images/navbar.PNG" alt="" />
+          <div class="portfolio-layer"  >
+            <h4>Navigation</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://beamish-queijadas-940863.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Assets/Media/Images/bioplant.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Bioplant</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://stellar-paprenjak-abc600.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Assets/Media/Images/jwellery.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Kaira Jwellery</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://delicate-sorbet-694b1b.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box" id="html">
+          <img src="Assets/Media/Images/cycleVibe.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Cycle Vibe</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://splendid-profiterole-24aa50.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box" id="javascript">
+          <img src="Assets/Media/Images/calculator.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Calculator</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://vocal-cheesecake-2c8188.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box" id="javascript">
+          <img src="Assets/Media/Images/techbasics.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Tech basics</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://legendary-jalebi-04af68.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box" id="javascript">
+          <img src="Assets/Media/Images/form.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Form</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://effervescent-starlight-82b37c.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Assets/Media/Images/Likhi.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>SASS</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://neon-daifuku-1373dd.netlify.app/"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Assets/Media/Images/Figma 1.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Figma</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
+              soluta dolorum!
+            </p>
+            <a href="https://www.figma.com/proto/q8eFE0fZ5lU2ZUMgq4LXwv/project---1?node-id=1-10&t=wVMXJDchJ3t1f5NS-1"><i class="bx bx-link-external"></i> </a>
+          </div>
+        </div> -->
+
+      <!-- </div> -->
+
+
+  <div class="portfolio-container">
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/navbar.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Navigation</h4>
+      <p>Navbar project using CSS.</p>
+      <a href="https://beamish-queijadas-940863.netlify.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/cycleVibe.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Cycle Vibe</h4>
+      <p>HTML-based website design.</p>
+      <a href="https://splendid-profiterole-24aa50.netlify.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="javascript">
+    <img src="Assets/Media/Images/calculator.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Calculator</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://vocal-cheesecake-2c8188.netlify.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="javascript">
+    <img src="Assets/Media/Images/form.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Form Validation</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://form-eta-two.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+  
+  <div class="portfolio-box" data-category="javascript">
+    <img src="Assets/Media/Images/age.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Age group</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://age-group-mocha.vercel.app/
+"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="sass">
+    <img src="Assets/Media/Images/Likhi.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Likhi</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://likhi-mu.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="sass">
+    <img src="Assets/Media/Images/Home kitchen.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Home kitchen</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://home-kitchen-chi.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/cake basket.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Cake basket</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://cake-basket.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="javascript">
+    <img src="Assets/Media/Images/Multiplication.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Multiplication</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://multiplication-sigma.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="reactjs">
+    <img src="Assets/Media/Images/Movie club.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Movie Club</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://movie-club-chi.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="figma">
+    <img src="Assets/Media/Images/Figma 1.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Figma</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://www.figma.com/proto/q8eFE0fZ5lU2ZUMgq4LXwv/project---1?node-id=1-10&t=wVMXJDchJ3t1f5NS-1"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/bioplant.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Bioplant</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://bio-plant.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/techbasics.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Tech basics</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://tech-basis.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/Company.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Company</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://company-three-neon.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box" data-category="html/css">
+    <img src="Assets/Media/Images/nav1.PNG" alt="" />
+    <div class="portfolio-layer">
+      <h4>Navbar</h4>
+      <p>Functional calculator in JavaScript.</p>
+      <a href="https://navbar-ivory.vercel.app/"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+
+
+
+  
+</div>
+    </section>
+
+    <!--contact section-->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me!</span></h2>
+
+         <form action="https://formspree.io/f/xqabqkgn" method="POST">
+            <div class="input-box">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="input-box">
+              <input type="tel" name="phone" placeholder="Mobile number" required />
+              <input type="text" name="subject" placeholder="Email Subject" required />
+            </div>
+            <textarea name="message" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--footer section-->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Challa Likitha| All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+          <a href="#home"><i class='bxr  bx-arrow-big-up-line'></i></a>
+      </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  </body>
+  <script src="Js/main.js"></script>
+</html>
