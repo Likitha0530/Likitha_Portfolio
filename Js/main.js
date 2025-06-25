@@ -102,9 +102,7 @@ const typed = new Typed('.multiple-text', {
 
   filterButtons.forEach(button => {
     button.addEventListener('click', (e) => {
-      e.preventDefault(); //  Prevent anchor default scroll or refresh
-
-      // Remove "active" from all buttons
+      e.preventDefault();
       filterButtons.forEach(btn => btn.classList.remove('active'));
       button.classList.add('active');
 
@@ -120,5 +118,8 @@ const typed = new Typed('.multiple-text', {
       });
     });
   });
+
+
+  
 
 

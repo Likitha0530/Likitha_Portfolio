@@ -293,6 +293,7 @@ span{
 
 }
 
+
 .portfolio-nav ul li a {
     color: var(--text-color);
     padding: 1rem 2rem;
@@ -322,8 +323,12 @@ span{
 }
 
 .portfolio-box img {
-    width: 100%;
+    width: 180%;
     transition: 5s ease;
+    height: 250px;      
+    object-fit:cover;  
+    /* display: block;
+    border-radius: 8px  */
 }
 
 .portfolio-box img:hover{

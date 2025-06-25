@@ -94,12 +94,32 @@
         grid-template-columns: repeat(2, 1fr);
         
     }
+    .portfolio-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .portfolio-list li {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 661px){
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+    .portfolio-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .portfolio-list li {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 450px){
@@ -110,6 +130,24 @@
     .contact form .input-box input{
         width: 100%;
     }
+
+    .portfolio-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+  }
+
+  .portfolio-list {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 1rem;
+  }
+
+  .portfolio-list li {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+  }
 }
 
 @media (max-width: 365px){
@@ -129,4 +167,21 @@
         text-align: center;
         margin-top: 2rem;
     }
+    .portfolio-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+  }
+
+  .portfolio-list {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 1rem;
+  }
+
+  .portfolio-list li {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+  }
 }
